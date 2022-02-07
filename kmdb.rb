@@ -70,36 +70,39 @@
 # Use `Model.destroy_all` code.
 # TODO!
 
-People.destroy_all
+Person.destroy_all
+Movie.destroy_all
+Role.destroy_all
 
 # Generate models and tables, according to the domain model
 # TODO!
-person1=People.new
+
+person1 = Person.new
 person1.name="Christopher Nolan"
 person1.id=1
 person1.save
 
-person2=People.new
+person2 = Person.new
 person2.name="Christian Bale"
 person2.id=2 
 person2.save
 
-person3=People.new
+person3 = Person.new
 person3.name="Michael Caine" 
 person3.id=3
 person3.save
 
-person4=People.new
+person4 = Person.new
 person4.name="Liam Neeson" 
 person4.id=4
 person4.save
 
-person5=People.new
+person5 = Person.new
 person5.name="Katie Holmes" 
 person5.id=5
 person5.save
 
-person6=People.new
+person6 = Person.new
 person6.name="Gary Oldman" 
 person6.id=6
 person6.save
